@@ -163,7 +163,7 @@
             this.panel6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel6.Location = new System.Drawing.Point(21, 229);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(185, 44);
+            this.panel6.Size = new System.Drawing.Size(207, 44);
             this.panel6.TabIndex = 9;
             // 
             // label47
@@ -207,7 +207,7 @@
             this.panel4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel4.Location = new System.Drawing.Point(24, 289);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(182, 44);
+            this.panel4.Size = new System.Drawing.Size(204, 44);
             this.panel4.TabIndex = 7;
             // 
             // label33
