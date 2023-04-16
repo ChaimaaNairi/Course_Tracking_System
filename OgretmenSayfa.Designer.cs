@@ -583,6 +583,7 @@
             this.panel6.BackColor = System.Drawing.Color.White;
             this.panel6.Controls.Add(this.label47);
             this.panel6.Controls.Add(this.pictureBox5);
+            this.panel6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel6.Location = new System.Drawing.Point(21, 229);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(185, 44);
@@ -604,6 +605,7 @@
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(182)))), ((int)(((byte)(215)))));
             this.panel5.Controls.Add(this.label34);
             this.panel5.Controls.Add(this.pictureBox4);
+            this.panel5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel5.Location = new System.Drawing.Point(21, 349);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(207, 44);
@@ -625,6 +627,7 @@
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(182)))), ((int)(((byte)(215)))));
             this.panel4.Controls.Add(this.label33);
             this.panel4.Controls.Add(this.pictureBox1);
+            this.panel4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel4.Location = new System.Drawing.Point(24, 289);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(182, 44);

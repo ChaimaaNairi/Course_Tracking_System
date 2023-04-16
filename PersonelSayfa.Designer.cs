@@ -79,6 +79,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label35 = new System.Windows.Forms.Label();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
@@ -95,6 +96,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(219)))), ((int)(((byte)(209)))));
+            this.panel2.Controls.Add(this.label35);
             this.panel2.Controls.Add(this.label32);
             this.panel2.Controls.Add(this.label36);
             this.panel2.Controls.Add(this.label45);
@@ -158,6 +160,7 @@
             this.panel6.BackColor = System.Drawing.Color.White;
             this.panel6.Controls.Add(this.label47);
             this.panel6.Controls.Add(this.pictureBox5);
+            this.panel6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel6.Location = new System.Drawing.Point(21, 229);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(185, 44);
@@ -179,6 +182,7 @@
             this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(182)))), ((int)(((byte)(215)))));
             this.panel5.Controls.Add(this.label34);
             this.panel5.Controls.Add(this.pictureBox4);
+            this.panel5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel5.Location = new System.Drawing.Point(21, 349);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(207, 44);
@@ -200,6 +204,7 @@
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(182)))), ((int)(((byte)(215)))));
             this.panel4.Controls.Add(this.label33);
             this.panel4.Controls.Add(this.pictureBox1);
+            this.panel4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel4.Location = new System.Drawing.Point(24, 289);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(182, 44);
@@ -611,6 +616,15 @@
             this.pictureBox3.TabIndex = 42;
             this.pictureBox3.TabStop = false;
             // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(73, 67);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(139, 16);
+            this.label35.TabIndex = 64;
+            this.label35.Text = "PersonelDogumTarihi";
+            // 
             // PersonelSayfa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -696,5 +710,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label35;
     }
 }
