@@ -59,11 +59,23 @@
     <Compile Include="MainPage.Designer.cs">
       <DependentUpon>MainPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="OgrenciDersProgramiSayfa .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciDersProgramiSayfa .Designer.cs">
+      <DependentUpon>OgrenciDersProgramiSayfa .cs</DependentUpon>
+    </Compile>
     <Compile Include="OgrenciSayfa .cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="OgrenciSayfa .Designer.cs">
       <DependentUpon>OgrenciSayfa .cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrentmenAkademikTakvimiSayfa .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrentmenAkademikTakvimiSayfa .Designer.cs">
+      <DependentUpon>OgrentmenAkademikTakvimiSayfa .cs</DependentUpon>
     </Compile>
     <Compile Include="OgretmenSayfa.cs">
       <SubType>Form</SubType>
@@ -77,6 +89,12 @@
     <Compile Include="PersonelSayfa.Designer.cs">
       <DependentUpon>PersonelSayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="PersonelÖğretmenListesiSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelÖğretmenListesiSayfa.Designer.cs">
+      <DependentUpon>PersonelÖğretmenListesiSayfa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="loadingPage.resx">
@@ -85,14 +103,23 @@
     <EmbeddedResource Include="MainPage.resx">
       <DependentUpon>MainPage.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciDersProgramiSayfa .resx">
+      <DependentUpon>OgrenciDersProgramiSayfa .cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OgrenciSayfa .resx">
       <DependentUpon>OgrenciSayfa .cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrentmenAkademikTakvimiSayfa .resx">
+      <DependentUpon>OgrentmenAkademikTakvimiSayfa .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OgretmenSayfa.resx">
       <DependentUpon>OgretmenSayfa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PersonelSayfa.resx">
       <DependentUpon>PersonelSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelÖğretmenListesiSayfa.resx">
+      <DependentUpon>PersonelÖğretmenListesiSayfa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
