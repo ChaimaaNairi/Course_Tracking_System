@@ -26,5 +26,10 @@ namespace ders_takip_sistemi
         {
 
         }
+
+        private void label35_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

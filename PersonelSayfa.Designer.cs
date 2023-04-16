@@ -619,11 +619,13 @@
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(73, 67);
+            this.label35.Location = new System.Drawing.Point(21, 59);
+            this.label35.MaximumSize = new System.Drawing.Size(600, 85);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(139, 16);
+            this.label35.Size = new System.Drawing.Size(600, 80);
             this.label35.TabIndex = 64;
-            this.label35.Text = "PersonelDogumTarihi";
+            this.label35.Text = resources.GetString("label35.Text");
+            this.label35.Click += new System.EventHandler(this.label35_Click);
             // 
             // PersonelSayfa
             // 
