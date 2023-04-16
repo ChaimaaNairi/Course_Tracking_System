@@ -256,12 +256,13 @@
             // 
             this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(219)))), ((int)(((byte)(209)))));
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(74, 643);
+            this.button3.Location = new System.Drawing.Point(74, 593);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(104, 37);
             this.button3.TabIndex = 5;
             this.button3.Text = "Çikiş";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // panel2
             // 
@@ -281,7 +282,7 @@
             this.panel2.Controls.Add(this.label40);
             this.panel2.Location = new System.Drawing.Point(260, 431);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(636, 264);
+            this.panel2.Size = new System.Drawing.Size(636, 200);
             this.panel2.TabIndex = 35;
             // 
             // label32
@@ -732,7 +733,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(908, 707);
+            this.ClientSize = new System.Drawing.Size(908, 672);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

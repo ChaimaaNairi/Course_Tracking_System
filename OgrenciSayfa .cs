@@ -126,5 +126,10 @@ namespace ders_takip_sistemi
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
