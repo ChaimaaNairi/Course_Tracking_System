@@ -10,19 +10,19 @@ using System.Windows.Forms;
 
 namespace ders_takip_sistemi
 {
-    public partial class OgretmenSayfa : Form
+    public partial class PersonelSayfa : Form
     {
-        public OgretmenSayfa()
+        public PersonelSayfa()
         {
             InitializeComponent();
         }
 
-        private void label11_Click(object sender, EventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void label16_Click(object sender, EventArgs e)
+        private void panel3_Paint(object sender, PaintEventArgs e)
         {
 
         }

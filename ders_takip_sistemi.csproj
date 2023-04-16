@@ -71,6 +71,12 @@
     <Compile Include="OgretmenSayfa.Designer.cs">
       <DependentUpon>OgretmenSayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="PersonelSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PersonelSayfa.Designer.cs">
+      <DependentUpon>PersonelSayfa.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="loadingPage.resx">
@@ -84,6 +90,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OgretmenSayfa.resx">
       <DependentUpon>OgretmenSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PersonelSayfa.resx">
+      <DependentUpon>PersonelSayfa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
