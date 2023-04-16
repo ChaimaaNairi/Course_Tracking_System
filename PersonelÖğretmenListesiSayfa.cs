@@ -56,5 +56,19 @@ namespace ders_takip_sistemi
         {
 
         }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+            PersonelSayfa personelSayfa = new PersonelSayfa();  
+            personelSayfa.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AnaSayfa anaSayfa = new AnaSayfa(); 
+            anaSayfa.Show();
+            this.Hide();
+        }
     }
 }

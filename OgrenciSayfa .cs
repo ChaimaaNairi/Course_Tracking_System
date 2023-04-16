@@ -82,11 +82,6 @@ namespace ders_takip_sistemi
 
         }
 
-        private void panel4_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -129,7 +124,23 @@ namespace ders_takip_sistemi
 
         private void button3_Click(object sender, EventArgs e)
         {
+            AnaSayfa anaSayfa = new AnaSayfa();
+            anaSayfa.Show();
+            this.Hide();
+        }
 
+        private void panel5_Click(object sender, EventArgs e)
+        {
+            OgrenciDersProgramiSayfa x = new OgrenciDersProgramiSayfa();
+            x.Show();
+            this.Hide();
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            OgrenciDersProgramiSayfa x = new OgrenciDersProgramiSayfa();
+            x.Show();
+            this.Hide();
         }
     }
 }

@@ -26,5 +26,25 @@ namespace ders_takip_sistemi
         {
 
         }
+
+        private void label47_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+            OgretmenSayfa x = new OgretmenSayfa();
+            x.Show();
+            this.Hide();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AnaSayfa x = new AnaSayfa();
+            x.Show();
+            this.Hide();
+        }
     }
 }

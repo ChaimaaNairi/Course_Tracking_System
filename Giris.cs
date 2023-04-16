@@ -111,5 +111,32 @@ namespace ders_takip_sistemi
             v.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text != "" && textBox2.Text != "" && checkBox2.Checked)
+            {
+                OgrenciSayfa x = new OgrenciSayfa();
+                x.Show();
+                this.Hide();
+
+            }
+            else if (textBox1.Text != "" && textBox2.Text != "" && checkBox1.Checked)
+            {
+                PersonelSayfa x = new PersonelSayfa();
+                x.Show();
+                this.Hide();
+
+            }
+            else if (textBox1.Text != "" && textBox2.Text != "" && checkBox3.Checked)
+            {
+                OgretmenSayfa x = new OgretmenSayfa();
+                x.Show();
+                this.Hide();
+            }
+            else
+                MessageBox.Show("Gereken bilgileri doldurunuz");
+
+        }
     }
 }

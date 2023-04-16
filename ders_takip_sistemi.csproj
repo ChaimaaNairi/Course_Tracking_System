@@ -47,6 +47,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnaSayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaSayfa.Designer.cs">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="duyurular.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="duyurular.Designer.cs">
+      <DependentUpon>duyurular.cs</DependentUpon>
+    </Compile>
+    <Compile Include="etkinlikler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="etkinlikler.Designer.cs">
+      <DependentUpon>etkinlikler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giris.Designer.cs">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kayit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kayit.Designer.cs">
+      <DependentUpon>Kayit.cs</DependentUpon>
+    </Compile>
     <Compile Include="loadingPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +121,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AnaSayfa.resx">
+      <DependentUpon>AnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="duyurular.resx">
+      <DependentUpon>duyurular.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="etkinlikler.resx">
+      <DependentUpon>etkinlikler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giris.resx">
+      <DependentUpon>Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kayit.resx">
+      <DependentUpon>Kayit.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="loadingPage.resx">
       <DependentUpon>loadingPage.cs</DependentUpon>
     </EmbeddedResource>

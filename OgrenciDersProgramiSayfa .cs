@@ -31,5 +31,22 @@ namespace ders_takip_sistemi
         {
 
         }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel6_Click(object sender, EventArgs e)
+        {
+            OgrenciSayfa x = new OgrenciSayfa();
+            x.Show();
+            this.Hide();
+        }
+
+        private void label47_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

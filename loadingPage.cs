@@ -29,13 +29,18 @@ namespace ders_takip_sistemi
             if(panel2.Width > 599)
             {
                 timer1.Stop();
-                OgrenciSayfa ogrenciPage = new OgrenciSayfa();
+                AnaSayfa ogrenciPage = new AnaSayfa();
                 ogrenciPage.Show();
                 this.Hide();
             }
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
