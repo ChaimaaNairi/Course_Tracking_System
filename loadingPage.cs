@@ -29,10 +29,15 @@ namespace ders_takip_sistemi
             if(panel2.Width > 599)
             {
                 timer1.Stop();
-                MainPage mainPage = new MainPage();
-                mainPage.Show();
+                OgrenciSayfa ogrenciPage = new OgrenciSayfa();
+                ogrenciPage.Show();
                 this.Hide();
             }
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
