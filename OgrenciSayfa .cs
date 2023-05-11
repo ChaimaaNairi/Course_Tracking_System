@@ -162,5 +162,10 @@ namespace ders_takip_sistemi
         {
 
         }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

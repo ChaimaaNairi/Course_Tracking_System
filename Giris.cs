@@ -36,7 +36,7 @@ namespace ders_takip_sistemi
 
         private void textBox1_Enter(object sender, EventArgs e)
         {
-            if(textBox1.Text == "E-mail")
+            if(textBox1.Text == "Numara")
             {
                 textBox1.Text = "";
                 textBox1.ForeColor = Color.Black;
@@ -47,7 +47,7 @@ namespace ders_takip_sistemi
         {
             if (textBox1.Text == "")
             {
-                textBox1.Text = "E-mail";
+                textBox1.Text = "Numara";
                 textBox1.ForeColor = Color.DimGray;
             }
         }
@@ -113,11 +113,7 @@ namespace ders_takip_sistemi
                 this.Hide();
 
             }
-            else if (textBox1.Text != "" && textBox2.Text != "" )
-            {
-               
-
-            }
+            
             else if (textBox1.Text != "" && textBox2.Text != "" && checkBox3.Checked)
             {
                 OgretmenSayfa y = new OgretmenSayfa();

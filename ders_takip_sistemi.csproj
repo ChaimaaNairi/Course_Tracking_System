@@ -95,12 +95,6 @@
     <Compile Include="OgrenciSayfa .Designer.cs">
       <DependentUpon>OgrenciSayfa .cs</DependentUpon>
     </Compile>
-    <Compile Include="OgrentmenAkademikTakvimiSayfa .cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="OgrentmenAkademikTakvimiSayfa .Designer.cs">
-      <DependentUpon>OgrentmenAkademikTakvimiSayfa .cs</DependentUpon>
-    </Compile>
     <Compile Include="OgretmenDersler.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,9 +132,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OgrenciSayfa .resx">
       <DependentUpon>OgrenciSayfa .cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OgrentmenAkademikTakvimiSayfa .resx">
-      <DependentUpon>OgrentmenAkademikTakvimiSayfa .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OgretmenDersler.resx">
       <DependentUpon>OgretmenDersler.cs</DependentUpon>
