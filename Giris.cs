@@ -31,9 +31,7 @@ namespace ders_takip_sistemi
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            Kayit kayit = new Kayit();
-            kayit.Show();
-            this.Hide();
+            
         }
 
         private void textBox1_Enter(object sender, EventArgs e)
@@ -116,29 +114,27 @@ namespace ders_takip_sistemi
         {
             if (textBox1.Text != "" && textBox2.Text != "" && checkBox2.Checked)
             {
-                OgrenciSayfa x = new OgrenciSayfa();
-                x.Show();
+                OgrenciSayfa z = new OgrenciSayfa();
+                z.Show();
                 this.Hide();
 
             }
             else if (textBox1.Text != "" && textBox2.Text != "" && checkBox1.Checked)
             {
-                PersonelSayfa x = new PersonelSayfa();
-                x.Show();
-                this.Hide();
+               
 
             }
             else if (textBox1.Text != "" && textBox2.Text != "" && checkBox3.Checked)
             {
-                OgretmenSayfa x = new OgretmenSayfa();
-                x.Show();
+                OgretmenSayfa y = new OgretmenSayfa();
+                y.Show();
                 this.Hide();
             }
             else
                 MessageBox.Show("Gereken bilgileri doldurunuz");
 
 
-            string x = textBox1;
+           
 
 
         }

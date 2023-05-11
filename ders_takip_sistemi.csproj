@@ -71,12 +71,6 @@
     <Compile Include="Giris.Designer.cs">
       <DependentUpon>Giris.cs</DependentUpon>
     </Compile>
-    <Compile Include="Kayit.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Kayit.Designer.cs">
-      <DependentUpon>Kayit.cs</DependentUpon>
-    </Compile>
     <Compile Include="loadingPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,9 +126,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Giris.resx">
       <DependentUpon>Giris.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Kayit.resx">
-      <DependentUpon>Kayit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="loadingPage.resx">
       <DependentUpon>loadingPage.cs</DependentUpon>

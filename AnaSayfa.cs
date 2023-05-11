@@ -147,9 +147,7 @@ namespace ders_takip_sistemi
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Kayit kayit = new Kayit();
-            kayit.Show();
-            this.Hide();
+           
         }
 
         private void label6_MouseEnter(object sender, EventArgs e)
