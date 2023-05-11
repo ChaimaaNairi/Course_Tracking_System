@@ -1,32 +1,21 @@
-# Ders_Takip_Sistemi
+# Course_Tracking_System
+The Course Tracking System is a software project built using C# and .NET that is designed to track the course records of graduate and doctoral students at the Graduate School of Sciences. The project is divided into three main parts: Student, Teacher, and Personnel (Admin).
 
-<h3> Proje Özeti: </h3>
+<h2>Features</h2>
+The Course Tracking System includes the following features:
 
-Bu proje, Fen Bilimleri Enstitüsü yüksek lisans ve doktora öğrencilerinin ders kayıtlarının takibini yapmak için kullanılacak bir yazılımı içermektedir. Sistem, öğrencilerin ders kayıtlarını görüntüleyebilmelerine, ders seçimlerini yapabilmelerine ve ders programlarına erişebilmelerine olanak sağlayacaktır. Ayrıca, öğretim görevlileri de sistemi kullanarak dersleri oluşturabilir, derslere öğrenci ekleyebilir ve ders programını oluşturabilirler.
+<h3>Student</h3>
 
-<h3>Proje Özellikleri: </h3>
++ Students can view their profile information, including their personal information, academic program, and enrolled courses.
++ Students can track their academic progress.
 
-+ Öğrencilerin ders kayıtlarını görüntüleyebilmesi
-+ Öğrencilerin ders seçimlerini yapabilmesi
-+ Öğrencilerin ders programına erişebilmesi
-+ Öğretim görevlilerinin dersleri oluşturabilmesi
-+ Öğretim görevlilerinin derslere öğrenci ekleyebilmesi
-+ Öğretim görevlilerinin ders programını oluşturabilmesi
+<h3>Teacher</h3>
 
-</br>
++ Teachers can view their course schedule and the list of students enrolled in their courses.
 
-Projeniz aşağıdaki sayfaları içerecek: 
+<h3>Personnel/Admin</h3>
 
-**Giriş Sayfası:** Kullanıcıların uygulamaya giriş yapabileceği bir sayfa. Burada kullanıcı adı ve şifre gibi bilgilerin girilmesiyle sisteme giriş yapılır.
++ Personnel/Admin can manage the student and teacher lists.
++ Personnel/Admin can add or edit student and teacher profiles.
++ Personnel/Admin can manage course schedules and academic programs.
 
-**Ana Sayfa:** Giriş yapan kullanıcının karşılaştığı ilk sayfa. Bu sayfada öğrencilerin ders kayıtlarını görüntüleyebilecekleri bir arayüz olabilir. Ayrıca öğrencilerin kayıt olabilecekleri derslerin listesi de bu sayfada yer alabilir.
-
-**Ders Detayları Sayfası:** Seçilen bir dersin detaylarını içeren bir sayfa. Bu sayfada dersin adı, öğretim görevlisi, ders saati ve sınıf gibi bilgiler yer alabilir.
-
-**Kayıt Ol Sayfası:** Öğrencilerin ders kayıtlarını yapabilecekleri bir sayfa. Burada öğrenciler seçtikleri dersleri kaydedebilirler.
-
-**Profil Sayfası:** Kullanıcıların profil bilgilerini görüntüleyebilecekleri bir sayfa. Burada kullanıcı adı, e-posta adresi ve parola gibi bilgileri değiştirebilirler.
-
-**Admin Sayfası:** Yöneticilerin dersleri ekleyebileceği, düzenleyebileceği ve silebileceği bir arayüz. Ayrıca öğretim görevlileri ve öğrenciler gibi diğer kullanıcıların hesaplarını da yönetebilirler.
-
-**Raporlama Sayfası:** Öğrencilerin ders kayıtları hakkında raporlar oluşturabilecekleri bir arayüz. Bu sayfada öğrenciler, seçtikleri derslerin kayıt durumu hakkında bilgi alabilirler.
