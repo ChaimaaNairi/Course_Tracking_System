@@ -29,18 +29,18 @@ namespace ders_takip_sistemi
             this.Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            OgrenciDersProgramiSayfa c= new OgrenciDersProgramiSayfa();
-            c.Show();
-            this.Hide();
-        }
+  
 
         private void button3_Click(object sender, EventArgs e)
         {
             AnaSayfa anaSayfa = new AnaSayfa();
             anaSayfa.Show();
             this.Hide();
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
