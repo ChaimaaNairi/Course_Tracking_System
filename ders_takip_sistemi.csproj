@@ -83,12 +83,6 @@
     <Compile Include="ogrenciDersler.Designer.cs">
       <DependentUpon>ogrenciDersler.cs</DependentUpon>
     </Compile>
-    <Compile Include="OgrenciDersProgramiSayfa .cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="OgrenciDersProgramiSayfa .Designer.cs">
-      <DependentUpon>OgrenciDersProgramiSayfa .cs</DependentUpon>
-    </Compile>
     <Compile Include="OgrenciSayfa .cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,9 +120,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ogrenciDersler.resx">
       <DependentUpon>ogrenciDersler.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OgrenciDersProgramiSayfa .resx">
-      <DependentUpon>OgrenciDersProgramiSayfa .cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OgrenciSayfa .resx">
       <DependentUpon>OgrenciSayfa .cs</DependentUpon>
