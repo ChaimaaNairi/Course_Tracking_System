@@ -152,5 +152,15 @@ namespace ders_takip_sistemi
             ogrenciDersler.Show();
             this.Hide();
         }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

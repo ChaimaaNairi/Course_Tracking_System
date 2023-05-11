@@ -72,11 +72,7 @@ namespace ders_takip_sistemi
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox1.Checked)
-            {
-                checkBox2.Checked = false;
-                checkBox3.Checked = false;
-            }
+           
             
         }
 
@@ -84,7 +80,6 @@ namespace ders_takip_sistemi
         {
             if (checkBox2.Checked)
             {
-                checkBox1.Checked = false;
                 checkBox3.Checked = false;
             }
         }
@@ -93,7 +88,6 @@ namespace ders_takip_sistemi
         {
             if (checkBox3.Checked)
             {
-                checkBox1.Checked = false;
                 checkBox2.Checked = false;
             }
         }
@@ -119,7 +113,7 @@ namespace ders_takip_sistemi
                 this.Hide();
 
             }
-            else if (textBox1.Text != "" && textBox2.Text != "" && checkBox1.Checked)
+            else if (textBox1.Text != "" && textBox2.Text != "" )
             {
                
 
