@@ -41,9 +41,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -200,49 +197,19 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 16.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(963, 258);
+            this.label2.Location = new System.Drawing.Point(861, 204);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(337, 55);
             this.label2.TabIndex = 41;
             this.label2.Text = "Dönem Dersleri";
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel2.Location = new System.Drawing.Point(402, 316);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1458, 467);
-            this.panel2.TabIndex = 42;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(510, 874);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1269, 351);
-            this.flowLayoutPanel1.TabIndex = 0;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(994, 806);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(261, 50);
-            this.label3.TabIndex = 43;
-            this.label3.Text = "Ders Bilgileri";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // ogrenciDersler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1969, 1368);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.panel2);
+            this.ClientSize = new System.Drawing.Size(1673, 1254);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox3);
@@ -275,8 +242,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Label label3;
     }
 }

@@ -70,9 +70,6 @@
             this.panel6 = new System.Windows.Forms.Panel();
             this.label47 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.label34 = new System.Windows.Forms.Label();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label33 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -85,8 +82,6 @@
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -514,7 +509,6 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(182)))), ((int)(((byte)(215)))));
             this.panel1.Controls.Add(this.panel6);
-            this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.button3);
             this.panel1.Controls.Add(this.pictureBox2);
@@ -560,45 +554,6 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 6;
             this.pictureBox5.TabStop = false;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(182)))), ((int)(((byte)(215)))));
-            this.panel5.Controls.Add(this.label34);
-            this.panel5.Controls.Add(this.pictureBox4);
-            this.panel5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel5.Location = new System.Drawing.Point(49, 696);
-            this.panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(310, 69);
-            this.panel5.TabIndex = 8;
-            this.panel5.Click += new System.EventHandler(this.panel5_Click);
-            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint_1);
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(182)))), ((int)(((byte)(215)))));
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(92, 16);
-            this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(215, 29);
-            this.label34.TabIndex = 7;
-            this.label34.Text = "Akademik takvimi";
-            this.label34.Click += new System.EventHandler(this.label34_Click);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(182)))), ((int)(((byte)(215)))));
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(4, 8);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(78, 45);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 6;
-            this.pictureBox4.TabStop = false;
             // 
             // panel4
             // 
@@ -688,7 +643,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(2151, 1616);
+            this.ClientSize = new System.Drawing.Size(1673, 1254);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -706,9 +661,6 @@
             this.panel6.ResumeLayout(false);
             this.panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -762,9 +714,6 @@
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.PictureBox pictureBox1;

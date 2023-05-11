@@ -38,9 +38,6 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -174,33 +171,6 @@
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 13.875F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(1019, 841);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(261, 50);
-            this.label3.TabIndex = 49;
-            this.label3.Text = "Ders Bilgileri";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(535, 909);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1244, 351);
-            this.flowLayoutPanel1.TabIndex = 44;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Gainsboro;
-            this.panel2.Location = new System.Drawing.Point(427, 351);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1433, 467);
-            this.panel2.TabIndex = 48;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -239,10 +209,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1969, 1368);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.flowLayoutPanel1);
-            this.Controls.Add(this.panel2);
+            this.ClientSize = new System.Drawing.Size(1673, 1254);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox3);
@@ -272,9 +239,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox3;

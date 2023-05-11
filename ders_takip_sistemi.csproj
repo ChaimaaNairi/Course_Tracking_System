@@ -119,24 +119,6 @@
     <Compile Include="OgretmenSayfa.Designer.cs">
       <DependentUpon>OgretmenSayfa.cs</DependentUpon>
     </Compile>
-    <Compile Include="PersonelOgrenciListesi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PersonelOgrenciListesi.Designer.cs">
-      <DependentUpon>PersonelOgrenciListesi.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PersonelSayfa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PersonelSayfa.Designer.cs">
-      <DependentUpon>PersonelSayfa.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PersonelÖğretmenListesiSayfa.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PersonelÖğretmenListesiSayfa.Designer.cs">
-      <DependentUpon>PersonelÖğretmenListesiSayfa.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AnaSayfa.resx">
@@ -174,15 +156,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OgretmenSayfa.resx">
       <DependentUpon>OgretmenSayfa.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PersonelOgrenciListesi.resx">
-      <DependentUpon>PersonelOgrenciListesi.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PersonelSayfa.resx">
-      <DependentUpon>PersonelSayfa.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PersonelÖğretmenListesiSayfa.resx">
-      <DependentUpon>PersonelÖğretmenListesiSayfa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

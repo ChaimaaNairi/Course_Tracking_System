@@ -415,7 +415,7 @@
             this.pictureBox6.Location = new System.Drawing.Point(374, 272);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(1257, 691);
+            this.pictureBox6.Size = new System.Drawing.Size(1331, 705);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 40;
             this.pictureBox6.TabStop = false;
@@ -476,7 +476,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1956, 1475);
+            this.ClientSize = new System.Drawing.Size(1673, 1254);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
