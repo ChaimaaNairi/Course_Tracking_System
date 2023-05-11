@@ -521,12 +521,12 @@
             this.panel1.Location = new System.Drawing.Point(3, -6);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(363, 1027);
+            this.panel1.Size = new System.Drawing.Size(363, 1642);
             this.panel1.TabIndex = 39;
             // 
             // panel6
             // 
-            this.panel6.BackColor = System.Drawing.Color.White;
+            this.panel6.BackColor = System.Drawing.Color.Gainsboro;
             this.panel6.Controls.Add(this.label47);
             this.panel6.Controls.Add(this.pictureBox5);
             this.panel6.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -539,18 +539,19 @@
             // label47
             // 
             this.label47.AutoSize = true;
-            this.label47.BackColor = System.Drawing.Color.White;
-            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(92, 23);
+            this.label47.BackColor = System.Drawing.Color.Gainsboro;
+            this.label47.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Bold);
+            this.label47.Location = new System.Drawing.Point(105, 8);
             this.label47.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(90, 29);
+            this.label47.Size = new System.Drawing.Size(120, 45);
             this.label47.TabIndex = 7;
             this.label47.Text = "Profile";
+            this.label47.Click += new System.EventHandler(this.label47_Click);
             // 
             // pictureBox5
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.White;
+            this.pictureBox5.BackColor = System.Drawing.Color.Gainsboro;
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(4, 8);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -566,12 +567,13 @@
             this.panel5.Controls.Add(this.label34);
             this.panel5.Controls.Add(this.pictureBox4);
             this.panel5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel5.Location = new System.Drawing.Point(32, 545);
+            this.panel5.Location = new System.Drawing.Point(49, 696);
             this.panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(310, 69);
             this.panel5.TabIndex = 8;
-            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
+            this.panel5.Click += new System.EventHandler(this.panel5_Click);
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint_1);
             // 
             // label34
             // 
@@ -609,6 +611,7 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(273, 69);
             this.panel4.TabIndex = 7;
+            this.panel4.Click += new System.EventHandler(this.panel4_Click);
             // 
             // label33
             // 
@@ -620,6 +623,7 @@
             this.label33.Size = new System.Drawing.Size(99, 29);
             this.label33.TabIndex = 7;
             this.label33.Text = "Dersler";
+            this.label33.Click += new System.EventHandler(this.label33_Click);
             // 
             // pictureBox1
             // 
@@ -684,7 +688,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1377, 1077);
+            this.ClientSize = new System.Drawing.Size(2151, 1616);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -692,6 +696,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "OgretmenSayfa";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OgretmenSayfa";
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();

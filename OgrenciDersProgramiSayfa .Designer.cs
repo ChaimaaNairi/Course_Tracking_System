@@ -32,6 +32,7 @@
             this.pageSetupDialog1 = new System.Windows.Forms.PageSetupDialog();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.label47 = new System.Windows.Forms.Label();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label34 = new System.Windows.Forms.Label();
@@ -63,7 +64,6 @@
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -87,7 +87,7 @@
             this.panel1.Location = new System.Drawing.Point(2, -8);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(363, 1116);
+            this.panel1.Size = new System.Drawing.Size(363, 1497);
             this.panel1.TabIndex = 39;
             // 
             // panel6
@@ -104,6 +104,19 @@
             this.panel6.TabIndex = 9;
             this.panel6.Click += new System.EventHandler(this.panel6_Click);
             // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(182)))), ((int)(((byte)(215)))));
+            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.Location = new System.Drawing.Point(105, 19);
+            this.label47.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(90, 29);
+            this.label47.TabIndex = 7;
+            this.label47.Text = "Profile";
+            this.label47.Click += new System.EventHandler(this.label47_Click);
+            // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(182)))), ((int)(((byte)(215)))));
@@ -118,32 +131,32 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.White;
+            this.panel5.BackColor = System.Drawing.Color.Gainsboro;
             this.panel5.Controls.Add(this.label34);
             this.panel5.Controls.Add(this.pictureBox4);
             this.panel5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel5.Location = new System.Drawing.Point(48, 573);
             this.panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(290, 69);
+            this.panel5.Size = new System.Drawing.Size(311, 69);
             this.panel5.TabIndex = 8;
             this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.BackColor = System.Drawing.Color.White;
-            this.label34.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(92, 16);
+            this.label34.BackColor = System.Drawing.Color.Gainsboro;
+            this.label34.Font = new System.Drawing.Font("Leelawadee UI", 12F, System.Drawing.FontStyle.Bold);
+            this.label34.Location = new System.Drawing.Point(64, 8);
             this.label34.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(182, 29);
+            this.label34.Size = new System.Drawing.Size(238, 45);
             this.label34.TabIndex = 7;
             this.label34.Text = "Ders Progarmi";
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.White;
+            this.pictureBox4.BackColor = System.Drawing.Color.Gainsboro;
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(4, 8);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -164,6 +177,7 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(285, 69);
             this.panel4.TabIndex = 7;
+            this.panel4.Click += new System.EventHandler(this.panel4_Click);
             // 
             // label33
             // 
@@ -175,6 +189,7 @@
             this.label33.Size = new System.Drawing.Size(99, 29);
             this.label33.TabIndex = 7;
             this.label33.Text = "Dersler";
+            this.label33.Click += new System.EventHandler(this.label33_Click);
             // 
             // pictureBox1
             // 
@@ -200,6 +215,7 @@
             this.button3.TabIndex = 5;
             this.button3.Text = "Çikiş";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // pictureBox2
             // 
@@ -456,24 +472,11 @@
             this.label20.TabIndex = 58;
             this.label20.Text = "bilgi";
             // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(143)))), ((int)(((byte)(182)))), ((int)(((byte)(215)))));
-            this.label47.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(105, 19);
-            this.label47.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(90, 29);
-            this.label47.TabIndex = 7;
-            this.label47.Text = "Profile";
-            this.label47.Click += new System.EventHandler(this.label47_Click);
-            // 
             // OgrenciDersProgramiSayfa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1676, 1042);
+            this.ClientSize = new System.Drawing.Size(1956, 1475);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
@@ -499,6 +502,7 @@
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "OgrenciDersProgramiSayfa";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OgrenciDersProgramiSayfa";
             this.panel1.ResumeLayout(false);
             this.panel6.ResumeLayout(false);

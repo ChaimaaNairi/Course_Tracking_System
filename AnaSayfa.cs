@@ -151,5 +151,28 @@ namespace ders_takip_sistemi
             kayit.Show();
             this.Hide();
         }
+
+        private void label6_MouseEnter(object sender, EventArgs e)
+        {
+            
+            label6.ForeColor = Color.Red;
+
+        }
+
+        private void label6_MouseLeave(object sender, EventArgs e)
+        {
+           
+            label6.ForeColor = Color.Black;
+        }
+
+        private void label7_MouseEnter(object sender, EventArgs e)
+        {
+            label7.ForeColor = Color.Red;
+        }
+
+        private void label7_MouseLeave(object sender, EventArgs e)
+        {
+            label7.ForeColor = Color.Black;
+        }
     }
 }

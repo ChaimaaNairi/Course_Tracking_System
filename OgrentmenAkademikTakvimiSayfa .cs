@@ -22,14 +22,11 @@ namespace ders_takip_sistemi
 
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void label47_Click(object sender, EventArgs e)
         {
-
+            OgretmenSayfa x = new OgretmenSayfa();
+            x.Show();
+            this.Hide();
         }
 
         private void panel6_Paint(object sender, PaintEventArgs e)
@@ -44,6 +41,27 @@ namespace ders_takip_sistemi
         {
             AnaSayfa x = new AnaSayfa();
             x.Show();
+            this.Hide();
+        }
+
+        private void label33_Click(object sender, EventArgs e)
+        {
+            OgretmenDersler ogretmenDersler = new OgretmenDersler();
+            ogretmenDersler.Show();
+            this.Hide();
+        }
+
+        private void panel4_Click(object sender, EventArgs e)
+        {
+            OgretmenDersler x = new OgretmenDersler();
+            x.Show();
+            this.Hide();
+        }
+
+        private void panel6_Click(object sender, EventArgs e)
+        {
+            OgrenciSayfa ogrenciSayfa = new OgrenciSayfa();
+            ogrenciSayfa.Show();
             this.Hide();
         }
     }

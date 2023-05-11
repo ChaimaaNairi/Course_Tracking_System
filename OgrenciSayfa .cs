@@ -104,6 +104,9 @@ namespace ders_takip_sistemi
 
         private void label33_Click(object sender, EventArgs e)
         {
+            ogrenciDersler ogrenciDersler = new ogrenciDersler();
+            ogrenciDersler.Show();
+            this.Hide();
 
         }
 
@@ -140,6 +143,13 @@ namespace ders_takip_sistemi
         {
             OgrenciDersProgramiSayfa x = new OgrenciDersProgramiSayfa();
             x.Show();
+            this.Hide();
+        }
+
+        private void panel4_Click(object sender, EventArgs e)
+        {
+            ogrenciDersler ogrenciDersler   = new ogrenciDersler();
+            ogrenciDersler.Show();
             this.Hide();
         }
     }

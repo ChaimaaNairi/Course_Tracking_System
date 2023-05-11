@@ -70,5 +70,34 @@ namespace ders_takip_sistemi
             anaSayfa.Show();
             this.Hide();
         }
+
+        private void panel4_Click(object sender, EventArgs e)
+        {
+            PersonelOgrenciListesi personelOgrenciListesi = new PersonelOgrenciListesi();
+            personelOgrenciListesi.Show();
+            this.Hide();
+        }
+
+        private void label33_Click(object sender, EventArgs e)
+        {
+            PersonelOgrenciListesi personelOgrenciListesi = new PersonelOgrenciListesi();
+            personelOgrenciListesi.Show();
+            this.Hide();
+
+        }
+
+        private void panel6_Click(object sender, EventArgs e)
+        {
+            PersonelSayfa p= new PersonelSayfa();
+            p.Show();
+            this.Hide();
+        }
+
+        private void label47_Click(object sender, EventArgs e)
+        {
+            PersonelSayfa p = new PersonelSayfa();
+            p.Show();
+            this.Hide();
+        }
     }
 }

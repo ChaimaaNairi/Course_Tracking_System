@@ -46,7 +46,30 @@ namespace ders_takip_sistemi
 
         private void label47_Click(object sender, EventArgs e)
         {
+            OgrenciSayfa x = new OgrenciSayfa();
+            x.Show();
+            this.Hide();
+        }
 
+        private void label33_Click(object sender, EventArgs e)
+        {
+            OgrenciSayfa x = new OgrenciSayfa();
+            x.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AnaSayfa anaSayfa = new AnaSayfa();
+            anaSayfa.Show();
+            this.Hide();
+        }
+
+        private void panel4_Click(object sender, EventArgs e)
+        {
+            ogrenciDersler ogrenciDersler = new ogrenciDersler();
+            ogrenciDersler.Show();
+            this.Hide();
         }
     }
 }

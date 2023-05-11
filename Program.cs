@@ -16,7 +16,7 @@ namespace ders_takip_sistemi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PersonelSayfa());
+            Application.Run(new loadingPage());
         }
     }
 }

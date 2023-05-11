@@ -45,5 +45,53 @@ namespace ders_takip_sistemi
             anaSayfa.Show();
             this.Hide();
         }
+
+        private void panel4_Click(object sender, EventArgs e)
+        {
+            PersonelOgrenciListesi personelOgrenciListesi = new PersonelOgrenciListesi();
+            personelOgrenciListesi.Show();
+                this.Hide();
+        }
+
+        private void label33_Click(object sender, EventArgs e)
+        {
+            PersonelOgrenciListesi personelOgrenciListesi = new PersonelOgrenciListesi();
+            personelOgrenciListesi.Show();
+            this.Hide();
+        }
+
+        private void panel5_Click(object sender, EventArgs e)
+        {
+            PersonelÖğretmenListesiSayfa c = new PersonelÖğretmenListesiSayfa();
+            c.Show();
+            this.Hide();
+        }
+
+        private void label34_Click(object sender, EventArgs e)
+        {
+            PersonelÖğretmenListesiSayfa c = new PersonelÖğretmenListesiSayfa();
+            c.Show();
+            this.Hide();
+        }
+
+        private void label33_MouseEnter(object sender, EventArgs e)
+        {
+            label7.ForeColor = Color.Red;
+        }
+
+        private void label33_MouseLeave(object sender, EventArgs e)
+        {
+            label7.ForeColor = Color.Black;
+        }
+
+        private void label34_MouseEnter(object sender, EventArgs e)
+        {
+            label7.ForeColor = Color.Red;
+        }
+
+        private void label34_MouseLeave(object sender, EventArgs e)
+        {
+            label7.ForeColor = Color.Black;
+        }
     }
 }

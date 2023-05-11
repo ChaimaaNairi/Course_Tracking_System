@@ -137,6 +137,10 @@ namespace ders_takip_sistemi
             else
                 MessageBox.Show("Gereken bilgileri doldurunuz");
 
+
+            string x = textBox1;
+
+
         }
     }
 }

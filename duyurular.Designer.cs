@@ -40,18 +40,18 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -123,6 +123,8 @@
             this.label7.TabIndex = 9;
             this.label7.Text = "Etkinlikler";
             this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.label7.MouseEnter += new System.EventHandler(this.label7_MouseEnter);
+            this.label7.MouseLeave += new System.EventHandler(this.label7_MouseLeave);
             // 
             // label6
             // 
@@ -146,6 +148,8 @@
             this.label5.TabIndex = 7;
             this.label5.Text = "Ana Sayfa";
             this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.label5.MouseEnter += new System.EventHandler(this.label5_MouseEnter);
+            this.label5.MouseLeave += new System.EventHandler(this.label5_MouseLeave);
             // 
             // label2
             // 
@@ -194,44 +198,23 @@
             this.panel2.Size = new System.Drawing.Size(634, 584);
             this.panel2.TabIndex = 2;
             // 
-            // label3
+            // label4
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(28, 189);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(565, 25);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "-------------------------------------------------------------------------------";
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(28, 392);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(565, 25);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "-------------------------------------------------------------------------------";
             // 
-            // label9
+            // label13
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Tai Le", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(57, 53);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(856, 34);
-            this.label9.TabIndex = 3;
-            this.label9.Text = "Bursa Uludağ Üniversitesi Sağlık Uygulama ve Araştırma Merkezi ";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(57, 99);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(738, 31);
-            this.label10.TabIndex = 4;
-            this.label10.Text = "Merkezi Hemodiyaliz ve Periton Diyaliz Resertifikasyon ";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(57, 146);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(247, 31);
-            this.label11.TabIndex = 5;
-            this.label11.Text = "Sınav Duyurusu...";
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(57, 491);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(0, 36);
+            this.label13.TabIndex = 7;
             // 
             // label12
             // 
@@ -243,14 +226,44 @@
             this.label12.TabIndex = 6;
             this.label12.Text = "Sınav duyurusu.....";
             // 
-            // label13
+            // label11
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(57, 491);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(0, 36);
-            this.label13.TabIndex = 7;
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(57, 146);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(247, 31);
+            this.label11.TabIndex = 5;
+            this.label11.Text = "Sınav Duyurusu...";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(57, 99);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(738, 31);
+            this.label10.TabIndex = 4;
+            this.label10.Text = "Merkezi Hemodiyaliz ve Periton Diyaliz Resertifikasyon ";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Tai Le", 10.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(57, 53);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(856, 34);
+            this.label9.TabIndex = 3;
+            this.label9.Text = "Bursa Uludağ Üniversitesi Sağlık Uygulama ve Araştırma Merkezi ";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(28, 189);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(565, 25);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "-------------------------------------------------------------------------------";
             // 
             // panel3
             // 
@@ -263,6 +276,24 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(598, 584);
             this.panel3.TabIndex = 3;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(18, 408);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(565, 25);
+            this.label17.TabIndex = 9;
+            this.label17.Text = "-------------------------------------------------------------------------------";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(18, 189);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(565, 25);
+            this.label16.TabIndex = 8;
+            this.label16.Text = "-------------------------------------------------------------------------------";
             // 
             // label14
             // 
@@ -285,33 +316,6 @@
             this.label15.Text = "Ders seçimi tarihleri açıklandı..";
             this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(28, 392);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(565, 25);
-            this.label4.TabIndex = 8;
-            this.label4.Text = "-------------------------------------------------------------------------------";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(18, 189);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(565, 25);
-            this.label16.TabIndex = 8;
-            this.label16.Text = "-------------------------------------------------------------------------------";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(18, 408);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(565, 25);
-            this.label17.TabIndex = 9;
-            this.label17.Text = "-------------------------------------------------------------------------------";
-            // 
             // duyurular
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -321,7 +325,6 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "duyurular";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "duyurular";
