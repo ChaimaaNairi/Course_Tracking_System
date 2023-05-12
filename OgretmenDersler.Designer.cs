@@ -73,6 +73,7 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(242, 909);
             this.panel1.TabIndex = 36;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // button4
             // 
@@ -151,7 +152,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Tai Le", 16.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(287, 171);
+            this.label2.Location = new System.Drawing.Point(285, 132);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(215, 34);
             this.label2.TabIndex = 47;
@@ -161,7 +162,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(395, 61);
+            this.label1.Location = new System.Drawing.Point(366, 60);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(154, 36);
             this.label1.TabIndex = 46;
@@ -170,7 +171,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(307, 45);
+            this.pictureBox3.Location = new System.Drawing.Point(291, 35);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(69, 76);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -187,11 +188,11 @@
             this.Gün,
             this.Saat,
             this.Öğretmen});
-            this.dataGridView1.Location = new System.Drawing.Point(270, 223);
+            this.dataGridView1.Location = new System.Drawing.Point(291, 169);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(800, 146);
+            this.dataGridView1.Size = new System.Drawing.Size(800, 254);
             this.dataGridView1.TabIndex = 48;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -244,18 +245,18 @@
             this.dataGridViewTextBoxColumn1,
             this.dataGridViewTextBoxColumn2,
             this.dataGridViewTextBoxColumn3});
-            this.dataGridView2.Location = new System.Drawing.Point(270, 447);
+            this.dataGridView2.Location = new System.Drawing.Point(291, 503);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(429, 146);
+            this.dataGridView2.Size = new System.Drawing.Size(800, 172);
             this.dataGridView2.TabIndex = 49;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Tai Le", 16.125F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(273, 397);
+            this.label3.Location = new System.Drawing.Point(285, 453);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(278, 34);
             this.label3.TabIndex = 50;
@@ -287,7 +288,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1115, 675);
+            this.ClientSize = new System.Drawing.Size(1115, 698);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.dataGridView1);

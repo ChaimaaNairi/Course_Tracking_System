@@ -71,6 +71,12 @@
     <Compile Include="Giris.Designer.cs">
       <DependentUpon>Giris.cs</DependentUpon>
     </Compile>
+    <Compile Include="hakkinda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hakkinda.Designer.cs">
+      <DependentUpon>hakkinda.cs</DependentUpon>
+    </Compile>
     <Compile Include="loadingPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Giris.resx">
       <DependentUpon>Giris.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hakkinda.resx">
+      <DependentUpon>hakkinda.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="loadingPage.resx">
       <DependentUpon>loadingPage.cs</DependentUpon>
