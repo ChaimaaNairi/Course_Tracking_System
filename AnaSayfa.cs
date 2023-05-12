@@ -182,5 +182,12 @@ namespace ders_takip_sistemi
         {
             label8.ForeColor = Color.Black;
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            hakkinda x = new hakkinda();
+            x.Show();
+            this.Hide();
+        }
     }
 }

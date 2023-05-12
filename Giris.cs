@@ -106,7 +106,7 @@ namespace ders_takip_sistemi
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text != "" && textBox2.Text != "" && checkBox2.Checked)
+            if ((textBox1.Text != "" && textBox1.Text != "Numara") && (textBox2.Text != "" && textBox2.Text != "Şifre") && checkBox2.Checked)
             {
                 OgrenciSayfa z = new OgrenciSayfa();
                 z.Show();
@@ -114,13 +114,13 @@ namespace ders_takip_sistemi
 
             }
             
-            else if (textBox1.Text != "" && textBox2.Text != "" && checkBox3.Checked)
+            else if ((textBox1.Text != "" && textBox1.Text != "Numara") && (textBox2.Text != "" && textBox2.Text != "Şifre") && checkBox3.Checked)
             {
                 OgretmenSayfa y = new OgretmenSayfa();
                 y.Show();
                 this.Hide();
             }
-            else
+            else if (textBox1.Text == "Numara" || textBox2.Text == "Şifre" || (!checkBox3.Checked && !checkBox2.Checked))
                 MessageBox.Show("Gereken bilgileri doldurunuz");
 
 
