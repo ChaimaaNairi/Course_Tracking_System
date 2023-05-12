@@ -88,5 +88,10 @@ namespace ders_takip_sistemi
             x.Show();
             this.Hide();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
