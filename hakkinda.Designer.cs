@@ -331,6 +331,7 @@
             this.label22.Size = new System.Drawing.Size(166, 16);
             this.label22.TabIndex = 23;
             this.label22.Text = "Münir Aydemir (032190045)";
+            this.label22.Click += new System.EventHandler(this.label22_Click);
             // 
             // hakkinda
             // 
