@@ -140,7 +140,9 @@ namespace ders_takip_sistemi
 
         private void label7_Click(object sender, EventArgs e)
         {
-           
+            etkinlikler c = new etkinlikler();
+            c.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -171,51 +173,14 @@ namespace ders_takip_sistemi
             label7.ForeColor = Color.Black;
         }
 
-        private void label8_Click(object sender, EventArgs e)
-        {
-            hakkinda x = new hakkinda();
-            x.Show();
-            this.Hide();
-        }
-
         private void label8_MouseEnter(object sender, EventArgs e)
         {
             label8.ForeColor = Color.Red;
         }
 
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_MouseDown(object sender, MouseEventArgs e)
-        {
-
-        }
-
         private void label8_MouseLeave(object sender, EventArgs e)
         {
-            label8.ForeColor= Color.Black;
+            label8.ForeColor = Color.Black;
         }
     }
 }

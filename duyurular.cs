@@ -67,5 +67,15 @@ namespace ders_takip_sistemi
         {
             label7.ForeColor = Color.Black;
         }
+
+        private void label8_MouseEnter(object sender, EventArgs e)
+        {
+            label8.ForeColor = Color.Red;
+        }
+
+        private void label8_MouseLeave(object sender, EventArgs e)
+        {
+            label8.ForeColor = Color.Black;
+        }
     }
 }
