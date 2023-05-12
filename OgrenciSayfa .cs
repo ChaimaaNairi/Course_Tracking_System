@@ -154,5 +154,24 @@ namespace ders_takip_sistemi
         {
 
         }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
+        {
+            
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            ogrenciDersler ogrenciDersler = new ogrenciDersler();
+            ogrenciDersler.Show();
+            this.Hide();
+        }
+
+        private void panel4_MouseClick(object sender, MouseEventArgs e)
+        {
+            ogrenciDersler ogrenciDersler = new ogrenciDersler();
+            ogrenciDersler.Show();
+            this.Hide();
+        }
     }
 }
