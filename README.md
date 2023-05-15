@@ -27,8 +27,8 @@ Ders seçme bölümü, öğrencinin derslerini seçmesini sağlar. Bu bölümde,
 **Öğretmen Arayuzu:** Öğretmen arayüzünde, öğretmenin kişisel bilgileri bulunur. Bu bölümde, öğretmenin adı, numarası, bölümü ve diğer önemli bilgileri görüntülenir. Ayrıca, öğretmenin verdiği derslerin bir listesi sunulur.
 Verdiği dersler listesi bölümü, öğretmenin hangi dersleri verdiğini gösterir. Bu bölümde, öğretmenin dersleri ve ilgili bilgileri, ders adı, kodu, saatleri vb.
 Ders aldığı öğrenciler listesi bölümü, öğretmenin hangi öğrencilerin dersine kayıtlı olduğunu gösterir.</br>
-<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/bb221367-22bb-49f6-a012-b00c6b6e7127" width="500px"/>
-<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/475e53c9-e7e8-4283-af45-ab322425b4b4" width="500px" />
+<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/bb221367-22bb-49f6-a012-b00c6b6e7127" height="500px" width="500px"/>
+<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/475e53c9-e7e8-4283-af45-ab322425b4b4" height="500px" />
 
 <h2>Veri Tabanı Tasarımı</h2>
 
