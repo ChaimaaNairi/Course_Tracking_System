@@ -14,12 +14,12 @@ Ana sayfa üzerinde bir navigasyon çubuğu (navbar) bulunmalıdır.
 Navbar, kullanıcılara ana sayfa, duyurular, etkinlikler, hakkında gibi sekmeleri seçme imkanı sunar.
 Giriş yapma işlemi  için "Giriş" butonu vardır.</br>
 
-<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/ff21ad9d-31c5-4778-9621-acc85ef994d4" width="400px"/>
-<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/afd28093-41c1-4e9c-9d96-1e8e9ccda4c8" align="right" width="400px"/>
-<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/86619f77-a923-4e96-976b-35db34c837f6" align="right" width="400px"/>
-<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/7888580b-6620-4e11-ad45-1c09c3460af8" align="right" width="400px"/>
-<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/bb221367-22bb-49f6-a012-b00c6b6e7127" align="right" width="400px"/>
-<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/475e53c9-e7e8-4283-af45-ab322425b4b4" align="right" width="400px"/>
+<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/ff21ad9d-31c5-4778-9621-acc85ef994d4" width="300px"/>
+<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/afd28093-41c1-4e9c-9d96-1e8e9ccda4c8" align="right" width="300px"/>
+<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/86619f77-a923-4e96-976b-35db34c837f6" align="right" width="300px"/>
+<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/7888580b-6620-4e11-ad45-1c09c3460af8" align="right" width="300px"/>
+<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/bb221367-22bb-49f6-a012-b00c6b6e7127" align="right" width="300px"/>
+<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/475e53c9-e7e8-4283-af45-ab322425b4b4" align="right" width="300px"/>
 
 **Giriş Sayfasi:** Giriş sayfasında kullanıcılar, numara ve şifrelerini girerek sisteme giriş yapabilirler. Ayrıca, iki seçenek bulunmalıdır: "Öğrenci" ve "Öğretmen". Kullanıcılar, kendi rol ve yetkilerine göre ilgili seçeneği seçerek giriş yapabilirler. Giriş işlemini tamamlamak için "Giriş" butonu bulunmalıdır. Bu sayede kullanıcılar doğru kimlik bilgilerini girerek ilgili kullanıcı hesabına erişebilirler.</br>
 
