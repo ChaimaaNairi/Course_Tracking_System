@@ -9,35 +9,32 @@ Ders Takip Sistemi, Bilgisayar Mühendisliği Fakültesi yüksek lisans ve dokto
 Loading Ekranı:</br>
 Loading ekranı, kullanıcının beklemesini engelleyerek sistemin yüklenme sürecini gösteren bir ekran tasarımıdır.
 <br clear="left"/>
+
+<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/ff21ad9d-31c5-4778-9621-acc85ef994d4" align="right" width="300px"/>
 Ana Sayfa:</br>
 Ana sayfa üzerinde bir navigasyon çubuğu (navbar) bulunmalıdır.
 Navbar, kullanıcılara ana sayfa, duyurular, etkinlikler, hakkında gibi sekmeleri seçme imkanı sunar.
 Giriş yapma işlemi  için "Giriş" butonu vardır.</br>
 
-<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/ff21ad9d-31c5-4778-9621-acc85ef994d4" align="right" width="300px"/>
-**Giriş Sayfasi:** Giriş sayfasında kullanıcılar, numara ve şifrelerini girerek sisteme giriş yapabilirler. Ayrıca, iki seçenek bulunmalıdır: "Öğrenci" ve "Öğretmen". Kullanıcılar, kendi rol ve yetkilerine göre ilgili seçeneği seçerek giriş yapabilirler. Giriş işlemini tamamlamak için "Giriş" butonu bulunmalıdır. Bu sayede kullanıcılar doğru kimlik bilgilerini girerek ilgili kullanıcı hesabına erişebilirler.
-<br clear="left"/>
-
 <img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/afd28093-41c1-4e9c-9d96-1e8e9ccda4c8" align="right" width="300px"/>
-**Öğrenci Arayuzu:** Öğrenci arayüzünde, öğrencinin kişisel bilgileri yer alır. Bu bölümde, öğrencinin adı, numarası, bölümü ve diğer önemli bilgileri görüntülenir. 
-Ders seçme bölümü, öğrencinin derslerini seçmesini sağlar. Bu bölümde, öğrenciye sunulan ders listesi gösterilir ve öğrenci istediği dersleri seçerek kaydolabilir.
+**Giriş Sayfasi:** Giriş sayfasında kullanıcılar, numara ve şifrelerini girerek sisteme giriş yapabilirler. Ayrıca, iki seçenek bulunmalıdır: "Öğrenci" ve "Öğretmen". Kullanıcılar, kendi rol ve yetkilerine göre ilgili seçeneği seçerek giriş yapabilirler. Giriş işlemini tamamlamak için "Giriş" butonu bulunmalıdır. Bu sayede kullanıcılar doğru kimlik bilgilerini girerek ilgili kullanıcı hesabına erişebilirler.
 <br clear="left"/>
 
 <img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/86619f77-a923-4e96-976b-35db34c837f6" align="right" width="300px"/>
 <img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/7888580b-6620-4e11-ad45-1c09c3460af8" align="right" width="300px"/>
-**Öğretmen Arayuzu:** Öğretmen arayüzünde, öğretmenin kişisel bilgileri bulunur. Bu bölümde, öğretmenin adı, numarası, bölümü ve diğer önemli bilgileri görüntülenir. Ayrıca, öğretmenin verdiği derslerin bir listesi sunulur.
-Verdiği dersler listesi bölümü, öğretmenin hangi dersleri verdiğini gösterir. Bu bölümde, öğretmenin dersleri ve ilgili bilgileri, ders adı, kodu, saatleri vb.
-Ders aldığı öğrenciler listesi bölümü, öğretmenin hangi öğrencilerin dersine kayıtlı olduğunu gösterir.
-
+**Öğrenci Arayuzu:** Öğrenci arayüzünde, öğrencinin kişisel bilgileri yer alır. Bu bölümde, öğrencinin adı, numarası, bölümü ve diğer önemli bilgileri görüntülenir. 
+Ders seçme bölümü, öğrencinin derslerini seçmesini sağlar. Bu bölümde, öğrenciye sunulan ders listesi gösterilir ve öğrenci istediği dersleri seçerek kaydolabilir.
 <br clear="left"/>
+
 
 <img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/bb221367-22bb-49f6-a012-b00c6b6e7127" align="right" width="300px"/>
 <img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/475e53c9-e7e8-4283-af45-ab322425b4b4" align="right" width="300px"/>
-
 **Öğretmen Arayuzu:** Öğretmen arayüzünde, öğretmenin kişisel bilgileri bulunur. Bu bölümde, öğretmenin adı, numarası, bölümü ve diğer önemli bilgileri görüntülenir. Ayrıca, öğretmenin verdiği derslerin bir listesi sunulur.
 Verdiği dersler listesi bölümü, öğretmenin hangi dersleri verdiğini gösterir. Bu bölümde, öğretmenin dersleri ve ilgili bilgileri, ders adı, kodu, saatleri vb.
 Ders aldığı öğrenciler listesi bölümü, öğretmenin hangi öğrencilerin dersine kayıtlı olduğunu gösterir.
+
 <br clear="left"/>
+
 
 <h2>Veri Tabanı Tasarımı</h2>
 
