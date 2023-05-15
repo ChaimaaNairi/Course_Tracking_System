@@ -21,8 +21,8 @@ Giriş yapma işlemi  için "Giriş" butonu vardır.</br>
 
 **Öğrenci Arayuzu:** Öğrenci arayüzünde, öğrencinin kişisel bilgileri yer alır. Bu bölümde, öğrencinin adı, numarası, bölümü ve diğer önemli bilgileri görüntülenir. 
 Ders seçme bölümü, öğrencinin derslerini seçmesini sağlar. Bu bölümde, öğrenciye sunulan ders listesi gösterilir ve öğrenci istediği dersleri seçerek kaydolabilir.</br>
-<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/86619f77-a923-4e96-976b-35db34c837f6" width="500px"/>
-<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/7888580b-6620-4e11-ad45-1c09c3460af8" width="500px"/>
+<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/86619f77-a923-4e96-976b-35db34c837f6" height="300px" width="500px"/>
+<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/7888580b-6620-4e11-ad45-1c09c3460af8" height="300px" width="500px"/>
 
 **Öğretmen Arayuzu:** Öğretmen arayüzünde, öğretmenin kişisel bilgileri bulunur. Bu bölümde, öğretmenin adı, numarası, bölümü ve diğer önemli bilgileri görüntülenir. Ayrıca, öğretmenin verdiği derslerin bir listesi sunulur.
 Verdiği dersler listesi bölümü, öğretmenin hangi dersleri verdiğini gösterir. Bu bölümde, öğretmenin dersleri ve ilgili bilgileri, ders adı, kodu, saatleri vb.
