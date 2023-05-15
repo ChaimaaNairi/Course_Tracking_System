@@ -7,10 +7,8 @@ Ders Takip Sistemi, Bilgisayar Mühendisliği Fakültesi yüksek lisans ve dokto
 
 **Loading Ekranı ve Ana Sayfa:** Ana sayfa, Ders Takip Sistemi'nin kullanıcıların karşılaştığı ilk sayfadır. 
 Loading Ekranı:</br>
-Loading ekranı, kullanıcının beklemesini engelleyerek sistemin yüklenme sürecini gösteren bir ekran tasarımıdır.</br>
-
+Loading ekranı, kullanıcının beklemesini engelleyerek sistemin yüklenme sürecini gösteren bir ekran tasarımıdır.
 <br clear="left"/>
-
 Ana Sayfa:</br>
 Ana sayfa üzerinde bir navigasyon çubuğu (navbar) bulunmalıdır.
 Navbar, kullanıcılara ana sayfa, duyurular, etkinlikler, hakkında gibi sekmeleri seçme imkanı sunar.
