@@ -3,10 +3,13 @@ Ders Takip Sistemi, Bilgisayar Mühendisliği Fakültesi yüksek lisans ve dokto
 
 <h2>Kullanıcı Arayüz Tasarımı </h2>
 
+<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/90517d9f-84b2-451b-9b03-83f36189c0c9" align="right" width="200px"/>
+
 **Loading Ekranı ve Ana Sayfa:** Ana sayfa, Ders Takip Sistemi'nin kullanıcıların karşılaştığı ilk sayfadır. 
 Loading Ekranı:</br>
 Loading ekranı, kullanıcının beklemesini engelleyerek sistemin yüklenme sürecini gösteren bir ekran tasarımıdır.</br>
-![1](https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/90517d9f-84b2-451b-9b03-83f36189c0c9)
+
+<br clear="left"/>
 
 Ana Sayfa:</br>
 Ana sayfa üzerinde bir navigasyon çubuğu (navbar) bulunmalıdır.
