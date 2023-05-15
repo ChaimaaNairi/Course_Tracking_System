@@ -3,15 +3,23 @@ Ders Takip Sistemi, Bilgisayar Mühendisliği Fakültesi yüksek lisans ve dokto
 
 <h2>Kullanıcı Arayüz Tasarımı </h2>
 
-**Kullanıcı Girişi:** Kullanıcıların sisteme giriş yapması ve hesaplarına erişim sağlaması için kullanılır. Kullanıcı, kullanıcı adı ve şifresini girerek sisteme giriş yapabilir.
+**Loading Ekranı ve Ana Sayfa:** Ana sayfa, Ders Takip Sistemi'nin kullanıcıların karşılaştığı ilk sayfadır. 
+<b>Loading Ekranı:</b>
+Loading ekranı, kullanıcının beklemesini engelleyerek sistemin yüklenme sürecini gösteren bir ekran tasarımıdır.
 
-**Ders Kaydı:** Kullanıcılar, mevcut dersler arasından seçim yaparak derslere kaydolabilirler. Bu use case, öğrencilerin ders seçme işlemlerini ve öğretmenlerin dersleri oluşturma ve güncelleme işlemlerini kapsar.
+<b>Ana Sayfa:</b>
+Ana sayfa üzerinde bir navigasyon çubuğu (navbar) bulunmalıdır.
+Navbar, kullanıcılara ana sayfa, duyurular, etkinlikler, hakkında gibi sekmeleri seçme imkanı sunar.
+Giriş yapma işlemi  için "Giriş" butonu vardır.
 
-**Ders Programını Görüntüleme:** Kullanıcılar, kayıtlı oldukları derslerin programını görüntüleyebilirler. Bu use case, kullanıcıların ders saatlerini, sınıflarını ve öğretim görevlilerini görmelerine olanak tanır.
+**Giriş Sayfasi:** Giriş sayfasında kullanıcılar, numara ve şifrelerini girerek sisteme giriş yapabilirler. Ayrıca, iki seçenek bulunmalıdır: "Öğrenci" ve "Öğretmen". Kullanıcılar, kendi rol ve yetkilerine göre ilgili seçeneği seçerek giriş yapabilirler. Giriş işlemini tamamlamak için "Giriş" butonu bulunmalıdır. Bu sayede kullanıcılar doğru kimlik bilgilerini girerek ilgili kullanıcı hesabına erişebilirler.
 
-**Not Girişi:** Öğretmenler, öğrencilerin performansını değerlendirmek için not girişi yapabilirler. Bu use case, öğretmenlerin öğrencilerin sınav sonuçlarını, ödev notlarını veya proje puanlarını sisteme kaydetmelerini içerir.
+**Öğrenci Arayuzu:** Öğrenci arayüzünde, öğrencinin kişisel bilgileri yer alır. Bu bölümde, öğrencinin adı, numarası, bölümü ve diğer önemli bilgileri görüntülenir. 
+Ders seçme bölümü, öğrencinin derslerini seçmesini sağlar. Bu bölümde, öğrenciye sunulan ders listesi gösterilir ve öğrenci istediği dersleri seçerek kaydolabilir.
 
-**Akademik İlerlemeyi Görüntüleme:** Kullanıcılar, akademik ilerlemelerini kontrol etmek için notlarını ve ders geçme durumlarını görüntüleyebilirler. Bu use case, kullanıcılara derslerdeki performanslarını takip etme imkanı sunar.
+**Öğretmen Arayuzu:** Öğretmen arayüzünde, öğretmenin kişisel bilgileri bulunur. Bu bölümde, öğretmenin adı, numarası, bölümü ve diğer önemli bilgileri görüntülenir. Ayrıca, öğretmenin verdiği derslerin bir listesi sunulur.
+Verdiği dersler listesi bölümü, öğretmenin hangi dersleri verdiğini gösterir. Bu bölümde, öğretmenin dersleri ve ilgili bilgileri, ders adı, kodu, saatleri vb.
+Ders aldığı öğrenciler listesi bölümü, öğretmenin hangi öğrencilerin dersine kayıtlı olduğunu gösterir.
 
 
 <h2>Veri Tabanı Tasarımı</h2>
