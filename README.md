@@ -14,7 +14,7 @@ Ana sayfa üzerinde bir navigasyon çubuğu (navbar) bulunmalıdır.
 Navbar, kullanıcılara ana sayfa, duyurular, etkinlikler, hakkında gibi sekmeleri seçme imkanı sunar.
 Giriş yapma işlemi  için "Giriş" butonu vardır.</br>
 
-<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/ff21ad9d-31c5-4778-9621-acc85ef994d4" width="300px"/>
+<img src="https://github.com/ChaimaaNairi/Course_Tracking_System/assets/83820363/ff21ad9d-31c5-4778-9621-acc85ef994d4" align="right" width="300px"/>
 **Giriş Sayfasi:** Giriş sayfasında kullanıcılar, numara ve şifrelerini girerek sisteme giriş yapabilirler. Ayrıca, iki seçenek bulunmalıdır: "Öğrenci" ve "Öğretmen". Kullanıcılar, kendi rol ve yetkilerine göre ilgili seçeneği seçerek giriş yapabilirler. Giriş işlemini tamamlamak için "Giriş" butonu bulunmalıdır. Bu sayede kullanıcılar doğru kimlik bilgilerini girerek ilgili kullanıcı hesabına erişebilirler.
 <br clear="left"/>
 
