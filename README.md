@@ -51,6 +51,12 @@ Ders aldığı öğrenciler listesi bölümü, öğretmenin hangi öğrencilerin
 
 
 <h2>Backend Tasarımı</h2>
+Kodun çalışma algoritması, Ders Takip Sistemi'nin en önemli parçasıdır. Bu kısım, veri tabanından alınan verileri Backend’de işleyip arayüze sunmayı içerir. Backend SQL,  C# ve .NET programlama dilleri kullanılarak geliştirilmiştir.</br>
+Backend kısmında, dört farklı veri yapısı kullanılmıştır. Bunlar; </br>
+1 - Öğrenci ve öğretim görevlisi verilerinin tutulduğu AVL ağacıdır. Bu ağaç, veri tabanındaki “ogrenciBilgi” ve “ogrenciGiris” tablolarındaki verileri tutan”ogrenciAVL” ile “ogretimGorevlisiBilgi” ve “ogretimGorevlisiGiris” tablolarındaki verileri tutan “ogretimGorevlisiAVL” den oluşur.</br>
+2 - Seçilen derslerin tutulduğu “IkiliBagliListe” dir. “IkiliBagliListe”, öğrencinin seçtiği dersleri tutan “donemDersleri” tablosunu ve kayıt sırasında veri tabanına kaydedilene kadar elde tutulan dersleri içerir. </br>
+3 - Tüm derslerin tutulduğu “HashTablosu” dur. “HashTablosu”, derslerin içinde bulunan “donem_id” anahtarını kullanarak verileri ilgili listede tutar.</br>
+4 - “HashTablosu” nun içinde “donem_id” sine göre dersleri tutan “dersListe” dir. Bu yapı, aynı “donem_id” sine sahip dersleri “HashTablosu” nda sıralı bir şekilde tutar. </br>
 
 
 
